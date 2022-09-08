@@ -7,31 +7,34 @@
     <title>Homework 3 index</title>
 </head> 
 <body>
-   <head1>Homework 3 "Projections"  This assignment was difficult for me, as I was convinced QGIS wasn't actually working and refusing to change projections. I used different colors to keep track of changes, despite these issues, to make sure qgis was actually changing each map as I selected a different projection. I think it's interesting that our projections exaggurate the size of Europe and North America, while shrinking the global south. Most of the projections in QGIS seemed pretty similar to the Mercator, which is guilty of this.  </head1> 
+   <head1>Homework 3 "Projections" This assignment was difficult for me at first, as it took a lot of questions to figure out why QGIS wasn't actually changing projections. But, once I got help, it was really easy. I think it is interesting and questionable  that in the MErcator type projections, which seem to be the most popular, it enlarges the size of Europe and North America, while shrinking the global south. I found the eliptical projections to be the easiest to understand, and the ones centered on the poles instead of the equator to be the most confusing. The QGIS lines and dots were very helpful for comparing distortions.Shout out to our TA for putting up with all of my questions :)  </head1> 
    
-<img src="./hw3 PNGS/ED87 EPSG 4321.png" alt="ED87" width="1000" height="666">
-</head2> ED 87 seems to be very consistent with its indicatrix points until you get to the north and south poles, where it becomes wildly distorted. Shape and area are changed.  </head2> 
+<img src="./hw3 PNGS/2.loximuthal.png" alt="loximuthal" width="1000" height="666">
+</head2> This projection alters shape and size, but size is far less distorted than with mercator projections. I personally find this eliptical shape helpful for visualizing a 3D sphere.  </head2> 
 
-<img src="./hw3 PNGS/IAU 2015_ 39902.png" alt="IAU" width="1000" height="666">
-</head3> This projection also distorts and enlarges the poles, and makes the equatorial part seem much smaller than it really is. I don't like this one. Both shape and area are distorted at the poles.   </head3>     
+<img src="./hw3 PNGS/3.Miller Cylindrical ESRI_53003.png" alt="miller" width="1000" height="666">
+</head3> This projection had far more distortion in shape and size at the poles, while diminishing the size of lands at the equator.  </head3>     
 
-<img src="./hw3 PNGS/1.TROMELIN 1956 MERCATOR.png" alt="IGNF" width="1000" height="666">
-</head4> This looks very outdated, which makes since because it comes from 1956. It also appears even further distorted. </head4>
+<img src="./hw3 PNGS/4.Robinson ESRI_54030.png" alt="robinson" width="1000" height="666">
+</head4>Another eliptical shape, this projection distorts both area and shape, however area is far more consistent accross latitudes. </head4>
 
-<img src="./hw3 PNGS/Pseudo Mercator.png" alt="Pseudo Mercator" width="1000" height="666">
-</head5> Being a pseudo Mercator, it distorts and enlarges the poles, while making equatorial lands seem much smaller.However, a lot more islands are shown in this projection than others, which is odd. </head5>
+<img src="./hw3 PNGS/6.Bonne Sphere ESRI_ 53024.png" alt="bonne" width="1000" height="666">
+</head5>This visualization suggests a sphere more than any other so far, yet is hard to understand.Distortion in shape and size increase towards the south pole.  </head5>
 
-<img src="./hw3 PNGS/sphere-compact-miller ESRI_ 53080.png" alt="miller" width="1000" height="666">
-</head6> This one also does a better job of showing smaller islands which seem to disapear under more distorted projections. Shape and area are distorted. </head6>
+<img src="./hw3 PNGS/7.North Pole Azimuthal Equidistant ESRI_102016.png" alt="NP azimuthal" width="1000" height="666">
+</head6> This one is focused on the north pole. Size and area are greatly distorted as one heads south. </head6>
 
-<img src="./hw3 PNGS/WGS 84 EPSG_ 4326.png" alt="wgs84" width="1000" height="666">
-</head7> It is starting to seem like QGIS only likes allowing mercator-like projections to work. Again, the poles are enlarged and the equatorial lands are shrunk. </head7>
+<img src="./hw3 PNGS/8.Winkel Tripel ESRI_54042.png" alt="winkel tripel" width="1000" height="666">
+</head7> Size seems very well preserved in this eliptical shaped projection, area is slightly distorted (as compared to other projections) </head7>
 
-<img src="./hw3 PNGS/world loximuthal esri_ 54030.png" alt="loximuthal" width="1000" height="666">
-</head8> This map also does a good job of showcasing islands, and the center 3 rows of dots appear pretty undisturbed. Again, a lot of polar distortion. 
-Both shape and area are changed. </head8>
+<img src="./hw3 PNGS/9.Pseudo Mercator EPSG_3857.png" alt="pseudo mercator" width="1000" height="666">
+</head8> Shape is perfectly portrayed, but size is wildly enlarged at the poles, and shrunk at the equator. </head8>
 
+<img src="./hw3 PNGS/1.TROMELIN 1956 MERCATOR.png" alt="tromelin mercator" width="1000" height="666">
+</head9>As with all mercator projections, the poles are greatly exaggurated in size, but this one doesnt even preserve shape very well. The south pole is comical. It appears very outdated. </head9>
 
-
+<img src="./hw3 PNGS/5.World Mercator EPSG_6893.png" alt="World mercator" width="1000" height="666">
+</head10> I thought it would be interesting to compare different mercator projections. They all seem bad. Size distortion is too intense for me to like this type of projection.  </head10>
 </body>
+
 </html>
